@@ -1,4 +1,4 @@
-## Input Range in Elm
+## Input Range in Elm 
 
 Re-createing `input[type=range]` in Elm, sort of study on how to handle mouse events and make it resuable in Elm Architecture.
 
@@ -14,7 +14,7 @@ Re-createing `input[type=range]` in Elm, sort of study on how to handle mouse ev
 
 ## BoilerPlate Code to connect to component
 
-```
+```elm
 type alias Model =
     { range1 : RangeSlider.Model }
 
